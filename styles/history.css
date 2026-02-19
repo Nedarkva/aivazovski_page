@@ -1,0 +1,38 @@
+.history {
+    background-color: var(--bg-main);
+    text-align: center;
+    padding: 65px 0 70px;
+    color: var(--color-main-black);
+}
+
+.history-title {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.history-img {
+    width: 100%;
+    max-width: 950px;
+    height: 655px;
+    object-fit: cover;
+    padding: 60px 30px 30px;
+}
+
+.home-description {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width: 480px) {
+
+    .home-description {
+        font-size: 14px;
+    }
+    .history-img {
+    height: 480px;
+    }
+    .history {
+    padding: 50px 0 70px;
+    }
+
+}
